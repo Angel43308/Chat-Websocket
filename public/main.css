@@ -1,0 +1,67 @@
+html, body{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+      
+}
+
+#chat-container {
+    
+    background-color: whitesmoke;
+    border-radius: 15px;
+    max-width: 450px; /*ancho del chat*/
+    margin: 30px auto;
+    border: 1px solid #ddd;/*Borde del chat*/
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .5);
+    max-height: 580px;
+   
+}
+
+
+#chat-window {
+background-color: khaki;
+padding: 14px ;
+margin: 0 20px;
+border-radius: 5px;
+border-bottom: 1px solid black;
+color: #555;
+width: auto;
+height: 320px;
+overflow: auto;
+scroll-behavior: auto;
+
+}
+
+#output p {
+    color: black; /*Color del texto*/
+    padding: 14px 0;
+    margin: 0 20px;
+}
+
+#actions p {
+    padding: 14px 0;
+    margin: 0 20px;
+    border-bottom: 2px solid beige;
+    color: gray; /*Color que aparece cuando alguien esta escribiendo*/
+    
+}
+
+input {
+    padding: 10px 20px; /*Tamaño del cuerpo*/
+    box-sizing: border-box;
+    border: 0;
+    background: rgba(77, 144, 199, 0.4); /*Color del cuerpo del envio de datos*/
+    display: block;
+    width: 100%;
+}
+
+button{
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
